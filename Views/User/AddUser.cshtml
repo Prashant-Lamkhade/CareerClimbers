@@ -1,0 +1,71 @@
+﻿@model CareerClimbers.Models.User
+
+@{
+    ViewData["HideNavbar"] = "true";
+}
+
+<div>
+    <h2></h2>
+    <!DOCTYPE html>
+    <html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Information</title>
+        <link rel="stylesheet" href="~/Content/StyleSheet1.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="title">Add Details</div>
+            <div class="content">
+
+
+               
+                <!-- Add enctype to support file uploads -->
+                <form action="/User/GetUser" method="post" enctype="multipart/form-data">
+                    <div class="user-details">
+
+                        <!-- Input for Full Name -->
+                        <div class="input-box">
+                            <span class="details">Full Name</span>
+                            <input type="text" name="name" placeholder="Enter your name" required>
+                        </div>
+
+                        <!-- Input for Email -->
+                        <div class="input-box">
+                            <span class="details">Email</span>
+                            <input type="email" name="email" placeholder="Enter your email" required>
+                        </div>
+
+                        <!-- Input for Password -->
+                        <div class="input-box">
+                            <span class="details">Password</span>
+                            <input type="password" name="password" placeholder="Enter your password" required>
+                        </div>
+
+                        <!-- Input for Role -->
+                        <div class="input-box">
+                            <span class="details">Role</span>
+                            <select name="role" required>
+                                <option value="student">Student</option>
+                                <option value="mentor">Mentor</option>
+                                <option value="admin">Admin</option>
+                            </select>
+                        </div>
+
+                        <!-- Input for Profile Picture -->
+                        <div class="input-box">
+                            <span class="details">Profile Picture</span>
+                            <input type="file" id="profile_picture" name="profile_picture" accept="image/*" required>
+                        </div>
+                    </div>
+
+                    <div class="button">
+                        <input type="submit" value="Add">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
+</div>

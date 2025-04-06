@@ -1,0 +1,306 @@
+﻿@{
+    ViewBag.Title = "ViewProfile";
+
+    var profile = ViewBag.Profile as CareerClimbers.Models.Profile;
+    var stories = ViewBag.Stories as List<CareerClimbers.Models.Story>;
+    var resources = ViewBag.Resources as List<CareerClimbers.Models.resource>;
+    var user = ViewBag.User as CareerClimbers.Models.User;
+    var question = ViewBag.Question as List<CareerClimbers.Models.questionT>;
+    var rating = ViewBag.Rating as List<CareerClimbers.Models.ratingT>;
+
+}
+
+
+
+@if (profile != null)
+{
+    foreach (var story in stories)
+    {
+        <section class="bg-light py-3 py-md-5 py-xl-8">
+            <div class="container">
+                <div class="row gy-4 gy-lg-0">
+                    <!-- Left Column for User Profile and Resources -->
+                    <div class="col-12 col-lg-4 col-xl-3">
+                        <div class="row gy-4">
+                            <!-- User Profile Card -->
+                            <div class="col-12">
+                                <div class="card widget-card border-light shadow-sm">
+                                    <div class="card-header text-bg-primary">Welcome</div>
+                                    <div class="card-body">
+                                        <div class="text-center mb-3">
+                                            <img src="@user.profile_picture" class="img-fluid rounded-circle" alt="@user.name">
+                                        </div>
+                                        <h5 class="text-center mb-1">@user.name</h5>
+                                        <p class="text-center text-secondary mb-4">@user.role</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- About Me Card -->
+                            <div class="col-12">
+                                <div class="card widget-card border-light shadow-sm">
+                                    <div class="card-header text-bg-primary">About Me</div>
+                                    <div class="card-body">
+                                        <ul class="list-group list-group-flush mb-0">
+                                            <li class="list-group-item">
+                                                <h6 class="mb-1">
+                                                    <span class="bii bi-mortarboard-fill me-2"></span>Education
+                                                </h6>
+                                                <span>@profile.educational_background</span>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <h6 class="mb-1">
+                                                    <span class="bii bi-building-fill-gear me-2"></span>Company
+                                                </h6>
+                                                <span>@story.company</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Skills Card -->
+                            <div class="col-12">
+                                <div class="card widget-card border-light shadow-sm">
+                                    <div class="card-header text-bg-primary">Skills</div>
+                                    <div class="card-body">
+                                        <span class="badge text-bg-primary">HTML</span>
+                                        <span class="badge text-bg-primary">SCSS</span>
+                                        <span class="badge text-bg-primary">Javascript</span>
+                                        <span class="badge text-bg-primary">React</span>
+                                        <span class="badge text-bg-primary">Vue</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column for Resources and Interview Questions -->
+                    <div class="col-12 col-lg-8 col-xl-9">
+                        <div class="card widget-card border-light shadow-sm">
+                            <div class="card-body p-4">
+                                <ul class="nav nav-tabs border-primary" id="profileTab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active text-white bg-primary border-primary"
+                                                id="overview-tab"
+                                                data-bs-toggle="tab"
+                                                data-bs-target="#overview-tab-pane"
+                                                type="button"
+                                                role="tab"
+                                                aria-controls="overview-tab-pane"
+                                                aria-selected="true">
+                                            @story.title
+                                        </button>
+                                    </li>
+                                </ul>
+
+
+
+
+                                <div class="tab-content pt-4" id="profileTabContent">
+                                    <div class="tab-pane fade show active" id="overview-tab-pane" role="tabpanel" aria-labelledby="overview-tab" tabindex="0">
+                                        <h5 class="mb-3">Journey Of Success</h5>
+                                        <p class="lead mb-3">@story.description</p>
+
+                                        <h5 class="mb-3">Learning Resources</h5>
+
+                                        @foreach (var resource in resources)
+                                        {
+                                            <a href="/User/seeResource/@resource.rid">
+                                                <div class="row g-0">
+                                                    <div class="col-5 col-md-3 bg-light border-bottom border-white border-3">
+                                                        <div class="p-2">@resource.title</div>
+                                                    </div>
+                                                    <div class="col-7 col-md-9 bg-light border-start border-bottom border-white border-3">
+                                                        <div class="p-2">@resource.tags</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        }
+                                        @if (@User.Identity.Name == @user.email)
+                                        {
+                                            <div class="text-end mt-4">
+                                                <a href="/User/getresources/@profile.profile_id" class="btn btn-outline-primary btn-lg">
+                                                    <i class="bi bi-plus-circle"></i> Add New Resource
+                                                </a>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Interview Questions Card (Positioned Below Add Resource Button) -->
+                        <!-- Interview Questions Card (Positioned Below Add Resource Button) -->
+                        <div class="card widget-card border-light shadow-sm mt-4">
+                            <div class="card-header text-bg-primary">Interview Questions</div>
+                            <div class="card-body">
+                                <h5 class="text-center mb-4">Interview Questions</h5>
+
+                                <!-- Display Interview Questions in a Table Format (without Solution) -->
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th class="col-2">Q No</th>
+                                            <th class="col-2">Category</th>
+                                            <th class="col-5">Question</th> <!-- Larger column for Question -->
+                                            <th class="col-2">Difficulty</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @if (question != null && question.Any())
+                                        {
+                                            for (int i = 0; i < question.Count; i++)
+                                            {
+                                                <tr>
+                                                    <td>@(i + 1)</td>
+                                                    <td>@question[i].category</td>
+
+                                                    <td>
+                                                        <a href="/User/seeAnswer/@question[i].qid" class="btn">
+                                                            @question[i].question
+                                                        </a>
+                                                    </td>
+                                                    <td>@question[i].difficulty</td>
+                                                </tr>
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <tr>
+                                                <td colspan="4" class="text-center text-muted">No interview questions available.</td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                                @if (@User.Identity.Name == @user.email)
+                                {
+                                    <div class="text-end mt-4">
+                                        <a href="/User/addQuestion/@profile.profile_id" class="btn btn-outline-primary btn-lg">
+                                            <i class="bi bi-plus-circle"></i> Add Interview Question
+                                        </a>
+                                    </div>
+                                }
+                                </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Click the stars to give a rating! -->
+        <div class="container mt-5">
+            <div class="card shadow-lg border-0 rounded-4">
+                <div class="card-header text-bg-primary text-center">
+                    <h4 class="mb-0">Feedback</h4>
+                </div>
+                <div class="card-body p-4">
+                    <form action="/User/getRating" method="POST">
+                        <h5 class="fw-bold mb-3 text-center">Rate Your Experience</h5>
+                        <div>
+                            <input type="text" name="ruserid" value="@user.user_id" hidden />
+
+                        </div>
+                        <!-- Star Rating -->
+                        <div class="d-flex justify-content-center mb-4">
+                            <input type="radio" class="btn-check" name="rating" id="star5" value="5" autocomplete="off">
+                            <label class="btn btn-outline-warning" for="star5"><i class="bi bi-star-fill"></i></label>
+
+                            <input type="radio" class="btn-check" name="rating" id="star4" value="4" autocomplete="off">
+                            <label class="btn btn-outline-warning" for="star4"><i class="bi bi-star-fill"></i></label>
+
+                            <input type="radio" class="btn-check" name="rating" id="star3" value="3" autocomplete="off">
+                            <label class="btn btn-outline-warning" for="star3"><i class="bi bi-star-fill"></i></label>
+
+                            <input type="radio" class="btn-check" name="rating" id="star2" value="2" autocomplete="off">
+                            <label class="btn btn-outline-warning" for="star2"><i class="bi bi-star-fill"></i></label>
+
+                            <input type="radio" class="btn-check" name="rating" id="star1" value="1" autocomplete="off">
+                            <label class="btn btn-outline-warning" for="star1"><i class="bi bi-star-fill"></i></label>
+                        </div>
+
+                        <!-- Comment Box -->
+                        <div class="mb-3">
+                            <label for="comment" class="form-label fw-bold">Leave a Comment</label>
+                            <textarea class="form-control" id="comment" name="comments" rows="4" placeholder="Share your thoughts..." style="width: 100%; height: 200px;"></textarea>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Submit Feedback</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- User Ratings Section -->
+        <div class="container mt-5">
+            <div class="card shadow-lg border-0 rounded-4">
+                <div class="card-header text-bg-primary text-center">
+                    <h4 class="mb-0">User Reviews</h4>
+                </div>
+                <div class="card-body p-4">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                        @if (rating != null && rating.Any())
+                        {
+                            foreach (var review in rating)
+                            {
+                                <div class="col">
+                                    <div class="card h-100 shadow-sm border-light p-3">
+                                        <div class="d-flex align-items-center mb-2">
+                                            <div class="me-3 text-primary">
+                                                <i class="bi bi-person-circle" style="font-size: 2rem;"></i>
+                                            </div>
+                                            <div>
+                                                <h6 class="mb-0">@user.name</h6>
+                                                <small class="text-muted">Posted on @DateTime.Now.ToString("MMMM dd, yyyy")</small>
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-2">
+                                            <strong>Rating:</strong>
+                                            <span class="text-warning">
+                                                @for (int i = 0; i < review.rating; i++)
+                                                {
+                                                    <i class="bi bi-star-fill"></i>
+                                                }
+                                                @for (int i = review.rating; i < 5; i++)
+                                                {
+                                                    <i class="bi bi-star"></i>
+                                                }
+                                            </span>
+                                        </div>
+
+                                        <p class="card-text">
+                                            <i class="bi bi-chat-dots-fill text-primary me-1"></i> "@review.comments"
+                                        </p>
+                                    </div>
+                                </div>
+                            }
+                        }
+                        else
+                        {
+                            <p class="text-center text-muted">No reviews yet.</p>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- Bootstrap & Icons -->
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    }
+}
+

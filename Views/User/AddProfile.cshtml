@@ -1,0 +1,144 @@
+﻿
+    @model CareerClimbers.Models.User
+@{
+    ViewBag.Title = "AddProfile";
+}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form Example</title>
+
+    <meta name="author" content="Codeconvey" />
+    <!-- Student Registration Form CSS -->
+    <link rel="stylesheet" href="~/Content/AddProfile1.css">
+    <link rel="stylesheet" href="~/Content/AddProfile2.css">
+   
+
+</head>
+<body>
+
+    <div class="ScriptTop">
+        <div class="rt-container">
+            <div class="col-rt-4" id="float-right">
+
+                <!-- Ad Here -->
+
+            </div>
+            <div class="col-rt-2">
+                <ul>
+                    <li><a href="/User/UserList" title="Back">Back</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <header class="ScriptHeader">
+        <div class="rt-container">
+            <div class="col-rt-12">
+                <div class="rt-heading">
+                    <h1>Enter Your Details ! </h1>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="rt-container">
+            <div class="col-rt-12">
+                <div class="Scriptcontent">
+
+                    <!-- Start Student Registration Form -->
+                    <form action="/User/GetProfile" method="post" class="reg-form" enctype="multipart/form-data">
+                        <p class="helper-text">* denotes a required field</p>
+
+
+
+                        <input type="text" id="id" name="user_fid" class="field text-field first-name-field" value="@Model.user_id" hidden >
+
+
+
+                        <div class="field-row">
+                            <label class="form-label" for="dateOfBirth">Date of birth</label>
+                            <input type="date" id="dateOfBirth" name="dateOfBirth" class="field date-field dob-field" min="1900-01-01" max="2015-09-18" required>
+                            <span class="message"></span>
+                        </div>
+
+
+
+                        <div class="field-row">
+                            <label class="form-label" for="firstName">Bio </label>
+                            <input type="text" id="firstName" name="bio" class="field text-field first-name-field" required>
+                            <span class="message"></span>
+                        </div>
+                        <div class="field-row">
+                            <label class="form-label cf" for="lastName">Skills</label>
+                            <input type="text" name="skills" lastName" class="field text-field last-name-field" required>
+                            <span class="message"></span>
+                        </div>
+
+
+
+                        <div class="field-row">
+                            <label class="form-label"> Educational Program</label>
+                            <select class="field form-dropdown" name="educational_background">
+                                <option value="MSC CS "> MSC CS </option>
+                                <option value=" BE COMPUTER SCINENCE"> BE COMPUTER SCINENCE </option>
+                                <option value="ME  COMPUTER SCINENCE"> ME  COMPUTER SCINENCE</option>
+                                <option value="BSC CS"> BSC CS  </option>
+                                <option value="BCA"> BCA</option>
+                                <option value="MCA"> MCA </option>
+                                <option value="PhD COMPUTER SCINENCE"> PhD COMPUTER SCINENCE</option>
+                            </select>
+                        </div>
+
+
+
+                        <div class="field-row">
+                            <label class="form-label" for="initials">Career Goals</label>
+                            <input type="text" name="career_goals" id="initials" class="field text-field initials-field">
+                        </div>
+
+
+
+                        <div class="field-row">
+                            <label class="form-label" for="hs">Achievements</label>
+                            <input type="text" id="hs" name="achievements" class="field text-field hs-field" required>
+                            <span class="message"></span>
+                        </div>
+
+
+
+                        <div class="field-row">
+                            <label class="form-label" for="tel">Social Link</label>
+                            <input type="tel" name="social_links" id="tel" class="field text-field tel-field" required>
+                            <span class="message"></span>
+                        </div>
+
+
+                        <div class="field-row">
+                            <label class="form-label"></label>
+                            <button class="form-button">Add</button>
+                        </div>
+                    </form>
+                    <!-- End Student Registration Form -->
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Analytics -->
+
+</body>
+</html>

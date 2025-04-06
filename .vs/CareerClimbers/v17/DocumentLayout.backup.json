@@ -1,0 +1,750 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.NET PROJECT\\CareerClimbers\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\models\\ratingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:models\\ratingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\models\\ratingt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:models\\ratingt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\views\\user\\viewprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:views\\user\\viewprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|d:\\.net project\\careerclimbers\\views\\user\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:views\\user\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|d:\\.net project\\careerclimbers\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\content\\userlist.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:content\\userlist.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\models\\adminmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:models\\adminmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\views\\user\\viewadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:views\\user\\viewadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\models\\profilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:models\\profilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\content\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:content\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\models\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:models\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\models\\mentorship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:models\\mentorship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\views\\user\\seeanswer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:views\\user\\seeanswer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\views\\user\\putquestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:views\\user\\putquestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\views\\user\\addquestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:views\\user\\addquestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\models\\questiontmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:models\\questiontmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\views\\user\\addinterviewquestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:views\\user\\addinterviewquestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\models\\questionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:models\\questionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\models\\interview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:models\\interview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\models\\interviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:models\\interviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\views\\user\\saveinterviewquestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:views\\user\\saveinterviewquestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\views\\user\\addprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:views\\user\\addprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\views\\user\\seeresource.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:views\\user\\seeresource.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\models\\resourcemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:models\\resourcemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\views\\user\\getresources.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:views\\user\\getresources.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\views\\user\\getstory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:views\\user\\getstory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\views\\user\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:views\\user\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\views\\user\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:views\\user\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\content\\story.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:content\\story.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\views\\user\\tempbtn.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:views\\user\\tempbtn.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\views\\user\\getupdateuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:views\\user\\getupdateuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\content\\addprofile1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:content\\addprofile1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|D:\\.NET PROJECT\\CareerClimbers\\content\\addprofile2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CEFDD23D-D96A-4B52-97F4-40B8EF6EAA52}|CareerClimbers.csproj|solutionrelative:content\\addprofile2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAADYCAAAAAAAAAAAowEACAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T13:43:48.584Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "viewAdmin.cshtml",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\viewAdmin.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\viewAdmin.cshtml",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\viewAdmin.cshtml",
+              "RelativeToolTip": "Views\\User\\viewAdmin.cshtml",
+              "ViewState": "AgIAAMQAAAAAAAAAAADwv9AAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-01T01:52:16.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserList.cshtml",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\UserList.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\UserList.cshtml",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\UserList.cshtml",
+              "RelativeToolTip": "Views\\User\\UserList.cshtml",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAYwGsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-29T04:12:02.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAYwGEAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-31T04:01:48.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ViewProfile.cshtml",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\ViewProfile.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\ViewProfile.cshtml",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\ViewProfile.cshtml",
+              "RelativeToolTip": "Views\\User\\ViewProfile.cshtml",
+              "ViewState": "AgIAABMBAAAAAAAAAAAYwCYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-31T03:43:39.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T13:41:38.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserList.css",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Content\\UserList.css",
+              "RelativeDocumentMoniker": "Content\\UserList.css",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Content\\UserList.css",
+              "RelativeToolTip": "Content\\UserList.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-29T04:25:20.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ratingT.cs",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Models\\ratingT.cs",
+              "RelativeDocumentMoniker": "Models\\ratingT.cs",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Models\\ratingT.cs",
+              "RelativeToolTip": "Models\\ratingT.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA3wBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T16:43:27.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ratingModel.cs",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Models\\ratingModel.cs",
+              "RelativeDocumentMoniker": "Models\\ratingModel.cs",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Models\\ratingModel.cs",
+              "RelativeToolTip": "Models\\ratingModel.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAIBCwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T16:42:15.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserModel.cs",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Models\\UserModel.cs",
+              "RelativeToolTip": "Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T02:55:47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T07:29:31.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-08T09:51:58.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "adminModel.cs",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Models\\adminModel.cs",
+              "RelativeDocumentMoniker": "Models\\adminModel.cs",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Models\\adminModel.cs",
+              "RelativeToolTip": "Models\\adminModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T03:01:55.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProfileModel.cs",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Models\\ProfileModel.cs",
+              "RelativeDocumentMoniker": "Models\\ProfileModel.cs",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Models\\ProfileModel.cs",
+              "RelativeToolTip": "Models\\ProfileModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T16:50:08.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "Views\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T13:41:21.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "seeAnswer.cshtml",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\seeAnswer.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\seeAnswer.cshtml",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\seeAnswer.cshtml",
+              "RelativeToolTip": "Views\\User\\seeAnswer.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA4wBgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T14:54:33.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "resource.cs",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Models\\resource.cs",
+              "RelativeDocumentMoniker": "Models\\resource.cs",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Models\\resource.cs",
+              "RelativeToolTip": "Models\\resource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T16:43:29.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "admin.css",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Content\\admin.css",
+              "RelativeDocumentMoniker": "Content\\admin.css",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Content\\admin.css",
+              "RelativeToolTip": "Content\\admin.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-01T02:06:30.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "putQuestion.cshtml",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\putQuestion.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\putQuestion.cshtml",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\putQuestion.cshtml",
+              "RelativeToolTip": "Views\\User\\putQuestion.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T13:23:53.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "questionTModel.cs",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Models\\questionTModel.cs",
+              "RelativeDocumentMoniker": "Models\\questionTModel.cs",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Models\\questionTModel.cs",
+              "RelativeToolTip": "Models\\questionTModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T13:11:24.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "addQuestion.cshtml",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\addQuestion.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\addQuestion.cshtml",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\addQuestion.cshtml",
+              "RelativeToolTip": "Views\\User\\addQuestion.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T13:02:20.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "questionModel.cs",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Models\\questionModel.cs",
+              "RelativeDocumentMoniker": "Models\\questionModel.cs",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Models\\questionModel.cs",
+              "RelativeToolTip": "Models\\questionModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T13:01:12.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "addInterviewQuestion.cshtml",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\addInterviewQuestion.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\addInterviewQuestion.cshtml",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\addInterviewQuestion.cshtml",
+              "RelativeToolTip": "Views\\User\\addInterviewQuestion.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T06:36:55.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "saveInterviewQuestion.cshtml",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\saveInterviewQuestion.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\saveInterviewQuestion.cshtml",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\saveInterviewQuestion.cshtml",
+              "RelativeToolTip": "Views\\User\\saveInterviewQuestion.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T08:22:40.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "interview.cs",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Models\\interview.cs",
+              "RelativeDocumentMoniker": "Models\\interview.cs",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Models\\interview.cs",
+              "RelativeToolTip": "Models\\interview.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvwwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T08:10:54.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "interviewModel.cs",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Models\\interviewModel.cs",
+              "RelativeDocumentMoniker": "Models\\interviewModel.cs",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Models\\interviewModel.cs",
+              "RelativeToolTip": "Models\\interviewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T07:57:49.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Mentorship.cs",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Models\\Mentorship.cs",
+              "RelativeDocumentMoniker": "Models\\Mentorship.cs",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Models\\Mentorship.cs",
+              "RelativeToolTip": "Models\\Mentorship.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T07:36:52.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Models\\Profile.cs",
+              "RelativeDocumentMoniker": "Models\\Profile.cs",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Models\\Profile.cs",
+              "RelativeToolTip": "Models\\Profile.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T07:36:41.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "seeResource.cshtml",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\seeResource.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\seeResource.cshtml",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\seeResource.cshtml",
+              "RelativeToolTip": "Views\\User\\seeResource.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T05:33:30.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "resourceModel.cs",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Models\\resourceModel.cs",
+              "RelativeDocumentMoniker": "Models\\resourceModel.cs",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Models\\resourceModel.cs",
+              "RelativeToolTip": "Models\\resourceModel.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T07:33:39.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "getresources.cshtml",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\getresources.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\getresources.cshtml",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\getresources.cshtml",
+              "RelativeToolTip": "Views\\User\\getresources.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAC0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T05:45:46.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AddProfile.cshtml",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\AddProfile.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\AddProfile.cshtml",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\AddProfile.cshtml",
+              "RelativeToolTip": "Views\\User\\AddProfile.cshtml",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAD4AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-29T12:21:09.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAswEYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T04:36:40.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T04:59:43.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GetStory.cshtml",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\GetStory.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\GetStory.cshtml",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\GetStory.cshtml",
+              "RelativeToolTip": "Views\\User\\GetStory.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T14:30:03.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-29T16:48:41.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Error.cshtml",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\Error.cshtml",
+              "RelativeToolTip": "Views\\User\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-08T14:02:17.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "TempBtn.cshtml",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\TempBtn.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\TempBtn.cshtml",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\TempBtn.cshtml",
+              "RelativeToolTip": "Views\\User\\TempBtn.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-31T03:51:24.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "story.css",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Content\\story.css",
+              "RelativeDocumentMoniker": "Content\\story.css",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Content\\story.css",
+              "RelativeToolTip": "Content\\story.css",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-07T13:58:12.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AddUser.cshtml",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\AddUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\AddUser.cshtml",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\AddUser.cshtml",
+              "RelativeToolTip": "Views\\User\\AddUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-27T17:02:04.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-31T04:05:28.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AddProfile1.css",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Content\\AddProfile1.css",
+              "RelativeDocumentMoniker": "Content\\AddProfile1.css",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Content\\AddProfile1.css",
+              "RelativeToolTip": "Content\\AddProfile1.css",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAgwIsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-29T15:44:36.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-31T04:23:42.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "GetUpdateUser.cshtml",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\GetUpdateUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\GetUpdateUser.cshtml",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Views\\User\\GetUpdateUser.cshtml",
+              "RelativeToolTip": "Views\\User\\GetUpdateUser.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAzwCQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-30T07:32:38.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AddProfile2.css",
+              "DocumentMoniker": "D:\\.NET PROJECT\\CareerClimbers\\Content\\AddProfile2.css",
+              "RelativeDocumentMoniker": "Content\\AddProfile2.css",
+              "ToolTip": "D:\\.NET PROJECT\\CareerClimbers\\Content\\AddProfile2.css",
+              "RelativeToolTip": "Content\\AddProfile2.css",
+              "ViewState": "AgIAAAABAAAAAAAAAAAgwBkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-29T15:45:15.968Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

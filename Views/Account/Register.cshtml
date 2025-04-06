@@ -1,0 +1,138 @@
+﻿@model CareerClimbers.Models.RegisterViewModel
+
+
+<main aria-labelledby="title">
+    <div class="container py-5">
+        <h2 id="title" class="text-center text-light mb-4">@ViewBag.Title</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <section id="registerForm" class="card p-4 shadow-lg custom-card">
+                    @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { role = "form" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <h4 class="text-center text-light mb-3">Create a new account.</h4>
+                        <hr />
+                        @Html.ValidationSummary("", new { @class = "text-danger" })
+
+                        <div class="mb-4">
+                            @Html.LabelFor(m => m.Email, new { @class = "form-label custom-label" })
+                            @Html.TextBoxFor(m => m.Email, new { @class = "form-control custom-input" })
+                            @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="mb-4">
+                            @Html.LabelFor(m => m.Password, new { @class = "form-label custom-label" })
+                            @Html.PasswordFor(m => m.Password, new { @class = "form-control custom-input" })
+                            @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="mb-4">
+                            @Html.LabelFor(m => m.ConfirmPassword, new { @class = "form-label custom-label" })
+                            @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control custom-input" })
+                            @Html.ValidationMessageFor(m => m.ConfirmPassword, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <input type="submit" value="Register" class="btn btn-primary btn-lg custom-btn" />
+                        </div>
+
+                        <div class="text-center mt-3">
+                            <p>
+                                Already have an account? @Html.ActionLink("Log in", "Login", new { @class = "custom-link" })
+                            </p>
+                        </div>
+                    }
+                </section>
+            </div>
+        </div>
+    </div>
+</main>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<style>
+    /* Background - Dark Teal & Cyan */
+    body {
+        background: linear-gradient(to right, #102a42, #0f4c75); /* Dark teal gradient */
+        font-family: 'Arial', sans-serif;
+        color: #ecf0f1; /* Light text */
+    }
+
+    /* Container */
+    .container {
+        max-width: 1000px;
+        margin-top: 50px;
+    }
+
+    /* Card - Teal with Cyan Highlights */
+    .custom-card {
+        background-color: #1b3b5f; /* Deep teal card */
+        border-radius: 10px;
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .custom-card:hover {
+            background-color: #145a74; /* Slightly lighter teal */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+    /* Label Styling */
+    .custom-label {
+        font-weight: bold;
+        font-size: 1.1rem;
+        color: #f1f1f1;
+    }
+
+    /* Input Fields */
+    .custom-input {
+        border-radius: 8px;
+        padding: 12px;
+        font-size: 1rem;
+        background-color: #0f4c75;
+        color: #ecf0f1;
+        border: 1px solid #45a29e; /* Cyan border */
+        transition: background-color 0.3s ease, border-color 0.3s ease;
+    }
+
+        .custom-input:focus {
+            background-color: #145a74;
+            border-color: #66fcf1; /* Brighter cyan focus */
+        }
+
+    /* Button - Neon Cyan */
+    .custom-btn {
+        background-color: #66fcf1; /* Bright cyan */
+        color: #1b3b5f;
+        border-radius: 25px;
+        font-weight: bold;
+        padding: 10px 20px;
+        font-size: 1.1rem;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+        .custom-btn:hover {
+            background-color: #45a29e; /* Slightly darker cyan */
+            transform: scale(1.05);
+        }
+
+    /* Links */
+    .custom-link {
+        color: #66fcf1;
+        font-size: 1rem;
+    }
+
+        .custom-link:hover {
+            color: #45a29e;
+            text-decoration: underline;
+        }
+
+    /* Responsive Layout */
+    .d-grid {
+        display: grid;
+        gap: 1rem;
+    }
+</style>

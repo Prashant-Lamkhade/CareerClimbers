@@ -1,0 +1,127 @@
+﻿@using CareerClimbers.Models;
+@{
+    adminModel db = new adminModel(); // Initialize your database context
+    var adminList = db.admins.ToList(); // Fetch all admins
+    bool isAdmin = adminList.Any(admin => admin.email.ToLower() == User.Identity.Name.ToLower());
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - CareerClimbers</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .navbar {
+            background: linear-gradient(135deg, #004aad, #00d4ff);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .nav-link {
+            color: white !important;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+            .nav-link:hover {
+                color: #ffeb3b !important;
+            }
+
+        .admin-highlight {
+            background: rgba(255, 193, 7, 0.8);
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: black !important;
+        }
+
+        .navbar-toggler {
+            border: none;
+            outline: none;
+        }
+
+        .navbar-toggler-icon {
+            filter: invert(1);
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        function unauthorizedAccess() {
+            alert("You are not an authorized user to access this page.");
+        }
+    </script>
+</head>
+<body>
+    @if (!ViewData["HideNavbar"]?.ToString().Equals("true", StringComparison.OrdinalIgnoreCase) ?? true)
+    {
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="/Home/Index">
+                    <i class="fas fa-graduation-cap"></i> CareerClimbers
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Home/Index"><i class="fas fa-home"></i> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Home/About"><i class="fas fa-info-circle"></i> About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Home/Contact"><i class="fas fa-envelope"></i> Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            @if (isAdmin)
+                            {
+                                <a class="nav-link" href="/User/TempBtn"><i class="fas fa-external-link-alt"></i> TEMP HOME</a>
+                            }
+                            else
+                            {
+                                <a class="nav-link" href="javascript:void(0);" onclick="unauthorizedAccess()">
+                                    <i class="fas fa-external-link-alt"></i> Privacy
+                                </a>
+                            }
+                        </li>
+                        @if (isAdmin)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link admin-highlight" href="/User/viewAdmin"><i class="fas fa-user-shield"></i> ADMIN</a>
+                            </li>
+                        }
+                    </ul>
+                    @Html.Partial("_LoginPartial")
+                </div>
+            </div>
+        </nav>
+    }
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year CareerClimbers - All Rights Reserved</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

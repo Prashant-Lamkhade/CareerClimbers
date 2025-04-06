@@ -1,0 +1,68 @@
+﻿@model CareerClimbers.Models.User
+@{
+    ViewData["HideNavbar"] = "true";
+}
+<h2>GetUpdateUser</h2>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information</title>
+    <link rel="stylesheet" href="~/Content/StyleSheet1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Add Details</div>
+        <div class="content">
+            <form action="/User/UpdateUser" method="post" enctype="multipart/form-data">
+                <div class="user-details">
+                    <!-- Hidden Input for User ID -->
+                    <input type="hidden" name="user_id" value="@Model.user_id">
+
+                    <!-- Input for Full Name -->
+                    <div class="input-box">
+                        <span class="details">Full Name</span>
+                        <input type="text" name="name" value="@Model.name" placeholder="Enter your name" required>
+                    </div>
+
+                    <!-- Input for Email -->
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="email" name="email" value="@Model.email" placeholder="Enter your email" required>
+                    </div>
+
+                    <!-- Input for Password -->
+                    <div class="input-box">
+                        <span class="details">Password</span>
+                        <input type="password" name="password" value="@Model.password" placeholder="Enter your password" required>
+                    </div>
+
+                    <!-- Input for Role -->
+                    <div class="input-box">
+                        <span class="details">Role</span>
+                        <select name="role" required>
+                            <option value="student" selected="@(Model.role == "student" ? "selected" : null)">Student</option>
+                            <option value="mentor" selected="@(Model.role == "mentor" ? "selected" : null)">Mentor</option>
+                            <option value="admin" selected="@(Model.role == "admin" ? "selected" : null)">Admin</option>
+                        </select>
+                    </div>
+
+                    <!-- Input for Profile Picture -->
+                    <div class="input-box">
+                        <span class="details">Profile Picture</span>
+                        <input type="file" id="profile_picture" name="profile_picture" accept="image/*">
+
+                    </div>
+                </div>
+
+                <div class="button">
+                    <input type="submit" value="Update">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+

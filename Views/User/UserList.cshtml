@@ -1,0 +1,121 @@
+﻿@using CareerClimbers.Models;
+@model List<CareerClimbers.Models.User>
+@{
+    adminModel db = new adminModel();
+    var adminList = db.admins.ToList(); // Fetch all admins
+
+    ProfileModel profdb = new ProfileModel();
+    var profList = profdb.Profiles.ToList();
+
+    bool isAuthenticated = User.Identity.IsAuthenticated; // Check if user is logged in
+}
+
+@{
+    ViewBag.Title = "UserList";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Data</title>
+    <link rel="stylesheet" href="~/Content/UserList.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .add-user-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #004aad;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 50%;
+            font-size: 24px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease;
+        }
+
+            .add-user-btn:hover {
+                background: #002b6b;
+                color: white;
+            }
+    </style>
+</head>
+
+<body>
+    <section class="wrapper">
+        <div class="container">
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    if (item.role == "mentor")
+                    {
+                        foreach (var item2 in profList)
+                        {
+                            if (item2.user_fid == item.user_id)
+                            {
+                                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                                    <div class="card text-dark card-has-bg click-col">
+                                        <img class="card-img d-none" src="" alt="@item2.bio">
+                                        <div class="card-img-overlay d-flex flex-column">
+                                            <div class="card-body">
+                                                <small class="card-meta mb-2">Profile</small>
+                                                <h4 class="card-title mt-0">
+                                                    <a class="text-dark" href="/User/ViewProfile/@item.user_id">@item2.bio</a>
+                                                </h4>
+                                                <small><i class="far fa-clock"></i> @item.created_at</small>
+                                            </div>
+
+                                            @if (adminList.Count > 0)
+                                            {
+                                                foreach (var admin in adminList)
+                                                {
+                                                    if (User.Identity.Name == item.email || admin.email.ToLower() == User.Identity.Name.ToLower())
+                                                    {
+                                                        <div>
+                                                            @if (item.user_id != null)
+                                                            {
+                                                                <a href="@Url.Action("GetUpdateUser", new { id = item.user_id })" class="btn btn-danger">Edit</a>
+                                                            }
+                                                            else
+                                                            {
+                                                                <span class="btn btn-secondary disabled">Edit</span>
+                                                            }
+
+                                                            <a href="@Url.Action("DeleteUser", new { id = item.user_id })" class="btn btn-dark">Delete</a>
+                                                        </div>
+                                                    }
+                                                }
+                                            }
+
+                                            <div class="card-footer">
+                                                <div class="media">
+                                                    <img class="mr-3 rounded-circle" src="@item.profile_picture" alt="User Image" style="max-width:50px">
+                                                    <div class="media-body">
+                                                        <h6 class="my-0 text-dark d-block">@item.name</h6>
+                                                        <small>@item.role</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        }
+                    }
+                }
+            </div>
+        </div>
+    </section>
+
+    @if (isAuthenticated)
+    {
+        <!-- Add User Floating Button (Only for Authenticated Users) -->
+        <a href="/User/AddUser" class="add-user-btn" title="Add New User">
+            <i class="fas fa-user-plus"></i>
+        </a>
+    }
+
+</body>
+</html>
